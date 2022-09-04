@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.divider {
+    border-bottom: 2px solid #C4C4C4;
+}
+
+/* MENU */
+
+.header-menu {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C4C4C4;
+    height: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+}
+
+.menu-item a:hover {
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+}
+
+/* CONTENT */
+
+.main {
+    padding: 0 16px;
+    background-color: #f8f8f8;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.content {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-text {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.link-github {
+    text-decoration: underline;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #000000;
+}
+
+.whatsapp {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    color: #C4C4C4;
+    text-decoration: underline;
+}
+
+.content-footer-email {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.content-footer {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.copy-container {
+    margin-top: 130px;
+}
+
+.copy {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 9px;
+    margin: 32px 0 0 16px;
+    padding-bottom: 16px;
+}
+
+.email {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icon-instagram {
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.93923 5.09091C7.26149 5.09091 5.09075 7.26165 5.09075 9.9394V22.0606C5.09075 24.7384 7.26149 26.9091 9.93923 26.9091H22.0604C24.7382 26.9091 26.9089 24.7384 26.9089 22.0606V9.9394C26.9089 7.26165 24.7382 5.09091 22.0604 5.09091H9.93923ZM2.6665 9.9394C2.6665 5.92278 5.92261 2.66667 9.93923 2.66667H22.0604C26.0771 2.66667 29.3332 5.92278 29.3332 9.9394V22.0606C29.3332 26.0772 26.0771 29.3333 22.0604 29.3333H9.93923C5.92261 29.3333 2.6665 26.0772 2.6665 22.0606V9.9394ZM16.5856 12.3506C15.829 12.2384 15.0563 12.3676 14.3774 12.7199C13.6985 13.0722 13.148 13.6296 12.8041 14.3128C12.4602 14.996 12.3405 15.7702 12.462 16.5253C12.5836 17.2805 12.9401 17.9781 13.4809 18.5189C14.0218 19.0598 14.7194 19.4163 15.4745 19.5378C16.2297 19.6593 17.0039 19.5396 17.6871 19.1958C18.3703 18.8519 18.9277 18.3013 19.2799 17.6224C19.6322 16.9435 19.7614 16.1708 19.6493 15.4142C19.5348 14.6425 19.1752 13.928 18.6235 13.3763C18.0718 12.8247 17.3574 12.465 16.5856 12.3506ZM13.2609 10.5681C14.3924 9.98098 15.6802 9.76559 16.9412 9.95258C18.2275 10.1433 19.4183 10.7427 20.3377 11.6621C21.2572 12.5816 21.8565 13.7724 22.0473 15.0586C22.2343 16.3196 22.0189 17.6075 21.4318 18.739C20.8446 19.8705 19.9157 20.7881 18.777 21.3612C17.6383 21.9343 16.348 22.1338 15.0894 21.9313C13.8308 21.7287 12.6681 21.1345 11.7667 20.2331C10.8653 19.3317 10.2711 18.1691 10.0686 16.9105C9.86607 15.6519 10.0656 14.3615 10.6387 13.2228C11.2118 12.0842 12.1294 11.1552 13.2609 10.5681ZM22.6665 8.12122C21.9971 8.12122 21.4544 8.6639 21.4544 9.33334C21.4544 10.0028 21.9971 10.5455 22.6665 10.5455H22.6786C23.3481 10.5455 23.8907 10.0028 23.8907 9.33334C23.8907 8.6639 23.3481 8.12122 22.6786 8.12122H22.6665Z' fill='white'/%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.icon-instagram a {
+    font-size: 27px;
+    color: transparent;
+}
+
+@media(min-width: 64rem) {
+
+    .main {
+        max-width: 1026px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-menu {
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #C4C4C4;
+        height: 50px;
+        position: sticky;
+        top: 0;
+    }
+
+    .header-menu,
+    .menu-list {
+        height: 50px;
+    }
+}
